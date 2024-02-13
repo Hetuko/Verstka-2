@@ -51,6 +51,14 @@ a {
     color: inherit;
 }
 
+.title {
+    text-align: center;
+    font-family: 'Cormorant', serif;
+    font-size: 40px;
+    font-weight: 400;
+    margin-bottom: 60px;
+}
+
 body {
     color: #151618;
     font-family: 'Open-Sans', sans-serif;
@@ -64,4 +72,130 @@ body {
     margin: 0 auto;
     padding-left: 20px;
     padding-right: 20px;
+}
+
+.intro {
+    background: url("../images/Header.jpg") no-repeat bottom center / cover;
+}
+
+.intro__inner {
+    display: flex;
+    flex-direction: column;
+    justify-content: end;
+    min-height: 500px;
+    color: #fff;
+}
+
+.intro__inner h1 {
+    font-family: "Cormorant", serif;
+    font-weight: 400;
+    font-size: 60px;
+    width: 780px;
+    line-height: 1.0em;
+    margin-bottom: 20px;
+}
+
+.intro__inner p {
+    font-family: "Cormorant", serif;
+    width: 560px;
+    font-size: 24px;
+    margin-bottom: 48px;
+    font-weight: 400;
+    line-height: normal;
+}
+
+.blockquote__text {
+    font-family: 'Cormorant', serif;
+    font-size: 40px;
+    font-weight: 300;
+    font-style: italic;
+    line-height: normal;
+    max-width: 704px;
+    text-align: center;
+    margin: 150px auto;
+}
+
+.assortment__image {
+    max-width: 170px;
+}
+
+.assortment__list {
+    display: flex;
+    justify-content: space-between;
+    text-align: center;
+}
+
+.assortment {
+    margin-bottom: 150px;
+}
+
+.feedback {
+    background-color: #F7F2E4;
+    padding: 60px 0;
+}
+
+.feedback__list {
+    display: flex;
+    gap: 0 25px;
+}
+
+.feedback__item {
+    flex-basis: 280px;
+}
+
+.feedback__text {
+    font-size: 16px;
+    font-style: italic;
+    margin-bottom: 10px;
+}
+
+.customer__name {
+    font-family: 'Open-Sans',sans-serif;
+    font-weight: 600;
+    font-size: 20px;
+    font-style: normal;
+}
+
+.blog {
+    padding: 150px 0;
+}
+
+.blog__list {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 40px 58px;
+}
+
+.blog__item {
+    flex-basis: 542px;
+    display: flex;
+    gap: 0 20px;
+}
+
+.blog__link {
+    padding: 12px 41px;
+    display: flex;
+    justify-content: center;
+    margin: 72px auto 0;
+    border: 1px solid #151618;
+    width: 152px;
+}
+
+.mailing {
+    background-color: #F7F2E4;
+    background-image: url("../images/tea-1.png");
+    background-repeat: no-repeat;
+    background-position: bottom right;
+    padding: 100px 0;
+    background-size: contain;
+}
+
+.mailing__title {
+    text-align: left;
+    margin-bottom: 50px;
+}
+
+.mailing__inner {
+    display: flex;
+    gap: 0 40px;
 }

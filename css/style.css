@@ -775,7 +775,7 @@ button {
         margin-bottom: 60px;
     }
     .blog__list {
-        margin-left: 20px;
+        margin-left: 5%;
     }
     .blog__item:nth-child(even) {
         margin-left: 0;
@@ -960,6 +960,7 @@ button {
     }
     .blog__list {
         justify-content: center;
+        margin-left: 12%;
     }
     .blog__item-title {
         min-height: auto;

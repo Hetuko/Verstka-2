@@ -798,8 +798,8 @@ button {
     }
     .mobile-actions {
         background-color: #F7F2EA;
-        height: 60px;
-        padding: 0 80px;
+        height: 100px;
+        padding: 0 80px 20px 80px;
         display: flex;
         align-items: center;
         justify-content: space-between;

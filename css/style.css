@@ -775,6 +775,7 @@ button {
         text-align: center;
         padding-top: 60px;
         transition: transform .3s ease;
+        overflow-y: scroll;
     }
     .menu__list.menu__list--open {
         transform: translateY(0%);

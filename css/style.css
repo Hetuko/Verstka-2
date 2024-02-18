@@ -776,6 +776,7 @@ button {
         padding-top: 60px;
         transition: transform .3s ease;
         overflow-y: scroll;
+        height: calc(100vh - 40px);
     }
     .menu__list.menu__list--open {
         transform: translateY(0%);
